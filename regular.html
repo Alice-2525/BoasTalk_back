@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正規表現チャレンジ</title>
+</head>
+<body>
+    <form action="regular.php" method="post" enctype="multipart/form-data" novalidate>
+
+        <label for="user">ユーザ</label>
+        <input type="text" name="user_id" required/><br>
+
+        <label for="image">画像</label>
+        <input type="file" name="image" required/><br>
+
+        <textarea  name="contents" rows="5" placeholder="本文"></textarea>
+        
+        <button type="submit" name="submit1">送信</button>
+
+    </form>
+</body>
+</html>
